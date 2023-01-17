@@ -1,6 +1,6 @@
 import { Ability } from '@casl/ability'
 import { initialAbility } from './initialAbility'
-const {getUserData} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {getUserData} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 //  Read ability from localStorage
 // * Handles auto fetching previous abilities if already logged in user
 // ? You can update this if you store user abilities to more secure place

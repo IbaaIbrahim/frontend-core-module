@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import Avatar from '@components/avatar'
 
 // ** Utils
-const {isUserLoggedIn} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {isUserLoggedIn} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 // ** Store & Actions
 import { useDispatch } from 'react-redux'
 //import { handleLogout } from '@store/actions/auth'

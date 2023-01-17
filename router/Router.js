@@ -2,7 +2,7 @@
 import { Suspense, useContext, lazy } from 'react'
 
 // ** Utils
-const {isUserLoggedIn} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {isUserLoggedIn} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 import { useLayout } from '@hooks/useLayout'
 import { AbilityContext } from '@src/utility/context/Can'
 import { useRouterTransition } from '@hooks/useRouterTransition'

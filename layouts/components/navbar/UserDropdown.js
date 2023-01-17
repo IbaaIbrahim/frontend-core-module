@@ -10,7 +10,7 @@ import { isUserLoggedIn } from '@utils'
 
 // ** Store & Actions
 import { useDispatch, useSelector } from 'react-redux'
-const {_logout} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {_logout} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 
 // ** Third Party Components
 import { UncontrolledDropdown, DropdownMenu, DropdownToggle, DropdownItem } from 'reactstrap'

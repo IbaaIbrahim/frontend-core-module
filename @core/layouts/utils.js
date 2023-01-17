@@ -1,7 +1,7 @@
 // ** React Imports
 import { useContext } from 'react'
 import { AbilityContext } from '@src/utility/context/Can'
-const {isUserLoggedIn} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {isUserLoggedIn} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 /**
  * Return which component to render based on it's data/context
  * @param {Object} item nav menu item

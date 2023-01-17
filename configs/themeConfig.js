@@ -9,12 +9,12 @@ const basicConfigs = {
     appName: 'FrameWork',
     appLogoImage: require('@src/assets/images/logo/logo.png').default,
     images:{
-      login:  require(`@modules/user/assets/images/login.svg`).default,
-      loginDark:  require(`@modules/user/assets/images/login-dark.svg`).default,
-      register:  require(`@modules/user/assets/images/register.svg`).default,
-      registerDark:  require(`@modules/user/assets/images/register-dark.svg`).default,
-      forgetPassword:  require(`@modules/user/assets/images/forgot-password.svg`).default,
-      forgetPasswordDark:  require(`@modules/user/assets/images/forgot-password-dark.svg`).default
+      login:  require(`@devModules/user/assets/images/login.svg`).default,
+      loginDark:  require(`@devModules/user/assets/images/login-dark.svg`).default,
+      register:  require(`@devModules/user/assets/images/register.svg`).default,
+      registerDark:  require(`@devModules/user/assets/images/register-dark.svg`).default,
+      forgetPassword:  require(`@devModules/user/assets/images/forgot-password.svg`).default,
+      forgetPasswordDark:  require(`@devModules/user/assets/images/forgot-password-dark.svg`).default
     },
     footerUrl:'#'
   },
