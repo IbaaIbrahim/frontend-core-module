@@ -10,7 +10,7 @@ import withReactContent from 'sweetalert2-react-content'
 
 import Avatar from '@components/avatar'
 import {store} from '@fwsrc/redux/storeConfig/store'
-const {_logout} = require(`@modules/${process.env.REACT_APP_AUTH_MODULE}`)
+const {_logout} = require(`@devModules/${process.env.REACT_APP_AUTH_MODULE}`)
 
 import _ from "lodash"
 
